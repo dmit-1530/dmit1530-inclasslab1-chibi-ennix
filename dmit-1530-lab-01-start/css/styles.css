@@ -65,9 +65,9 @@ footer h2 {
 /* Hero Section with Separate Banner Image */
 .hero {
     width: 100%;
-    height: 450px; /* Adjust height as needed */
+    height: 450px;
     background: url('../img/mountains.jpg') no-repeat center/cover;
-    margin-bottom: 2rem; /* Creates space below the image */
+    margin-bottom: 2rem;
 }
 
 /* Hero Content Box - Ensuring Controlled Positioning Below the Image */
@@ -81,7 +81,7 @@ footer h2 {
 .hero-box h1 {
     font-family: 'Fjalla One', sans-serif;
     font-weight: bold;
-    text-align: left; /* Ensures alignment */
+    text-align: left;
     margin-bottom: 1rem;
 }
 
@@ -124,10 +124,12 @@ footer h2 {
     width: 350px;
     height: auto;
     border-radius: 10px;
+    margin-bottom: 0.5rem;
 }
 
 /* Why Jasper Section */
 .why-jasper {
+    margin-top: 0;
     padding: 4rem 1rem;
     max-width: 700px;
     margin: 0 auto;
@@ -141,17 +143,21 @@ footer h2 {
     margin-bottom: 2rem;
     text-align: left;
     margin-left: 0;
+    max-width: 700px;
+    margin: 0 auto; 
 }
+
 
 /* Individual Content Blocks */
 .reason {
     max-width: 700px;
-    margin: 2rem auto;
-    padding: 2rem;
+    margin-left: 0;
+    padding: 2rem 0;
     background: var(--french-gray);
     border-radius: 8px;
     text-align: left;
 }
+
 
 .reason h3 {
     font-family: 'Fjalla One', sans-serif;
